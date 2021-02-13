@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="272dp"
+        android:layout_height="138dp"
+        android:layout_gravity="center"
+        android:background="#00F4E0"
+        android:gravity="center"
+        android:paddingLeft="50dp"
+        android:paddingBottom="50dp"
+        android:layout_margin="50dp"
+        android:text="Hello World!"
+        android:textColor="#E64304"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="243dp"
+        android:layout_height="123dp"
+        android:layout_gravity="center"
+        app:srcCompat="@android:drawable/ic_lock_lock"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="257dp"
+        tools:srcCompat="@android:drawable/ic_lock_lock" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="412dp"
+        android:layout_height="93dp"
+        android:gravity="center"
+        android:layout_marginTop="200dp"
+        android:text="Button"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="392dp" />
+
+
+
+
+</LinearLayout>
